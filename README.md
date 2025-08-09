@@ -1,6 +1,6 @@
 ## nates-resnet
 
-Short, GPU-only training and inference pipeline for a custom ResNet regressor that predicts temperature from VNA traces. The project performs dataset assembly from raw CSVs, feature construction, Optuna-driven hyperparameter search, final training, and artifact packaging for reproducible inference.
+GPU-only training and inference pipeline for a custom ResNet regressor that predicts temperature from VNA traces. The project performs dataset assembly from raw CSVs, feature construction, Optuna-driven hyperparameter search, final training, and artifact packaging for reproducible inference.
 
 ### Methodology
 - **Data ingestion**: Reads VNA CSV files from `VNA-D4B` and temperature readings from `temp_readings-*.csv`. Timestamps are parsed from VNA filenames and aligned to the nearest temperature within 15 minutes.
@@ -8,7 +8,7 @@ Short, GPU-only training and inference pipeline for a custom ResNet regressor th
 - **Labels**: Temperature `temp_c` is taken from the aligned reading.
 - **Split**: 70% train, 15% validation (for Optuna), 15% holdout for final reporting.
 - **Model**: `CustomResNet` — input projection → N residual blocks with LayerNorm, linear, dropout, and learnable residual scaling (`alpha`) → linear head. Single-target regression.
-- **Preprocessing (optional)**: VarianceThreshold, StandardScaler, and SelectKBest are toggled/parameterized by Optuna and, if used, are saved for exact reproduction.
+- **Preprocessing (optuna chooses to use this or not )**: VarianceThreshold, StandardScaler, and SelectKBest are toggled/parameterized by Optuna and, if used, are saved for exact reproduction.
 - **Optimization**: Optuna TPE maximizes validation R². Mixed precision (AMP) is used; batch size is auto-scaled to fit GPU memory. Optional `torch.compile` when available.
 - **Final training**: Trains with best hyperparameters on train+val; reports true holdout R². Early stopping with a patience window after a minimum epoch count.
 - **Artifacts & versioning**: Saves to `inference-ready/` including weights, params, metrics, data stats, enabled preprocessors, holdout arrays, and a code snapshot (`model/model_def.py`) with a content-hash `version.json` for provenance.
