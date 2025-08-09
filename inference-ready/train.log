@@ -1,0 +1,846 @@
+  0%|          | 0/50 [00:00<?, ?it/s]                                        0%|          | 0/50 [00:12<?, ?it/s]Best trial: 0. Best value: 0.863933:   0%|          | 0/50 [00:12<?, ?it/s]Best trial: 0. Best value: 0.863933:   2%|2         | 1/50 [00:12<10:07, 12.39s/it]Best trial: 0. Best value: 0.863933:   2%|2         | 1/50 [00:12<10:07, 12.39s/it, 12.39/3600 seconds]                                                                                                       Best trial: 0. Best value: 0.863933:   2%|2         | 1/50 [00:19<10:07, 12.39s/it, 12.39/3600 seconds]Best trial: 0. Best value: 0.863933:   2%|2         | 1/50 [00:19<10:07, 12.39s/it, 12.39/3600 seconds]Best trial: 0. Best value: 0.863933:   4%|4         | 2/50 [00:19<07:32,  9.43s/it, 12.39/3600 seconds]Best trial: 0. Best value: 0.863933:   4%|4         | 2/50 [00:19<07:32,  9.43s/it, 19.75/3600 seconds]                                                                                                       Best trial: 0. Best value: 0.863933:   4%|4         | 2/50 [00:29<07:32,  9.43s/it, 19.75/3600 seconds]Best trial: 0. Best value: 0.863933:   4%|4         | 2/50 [00:29<07:32,  9.43s/it, 19.75/3600 seconds]Best trial: 0. Best value: 0.863933:   6%|6         | 3/50 [00:29<07:34,  9.66s/it, 19.75/3600 seconds]Best trial: 0. Best value: 0.863933:   6%|6         | 3/50 [00:29<07:34,  9.66s/it, 29.69/3600 seconds]                                                                                                       Best trial: 0. Best value: 0.863933:   6%|6         | 3/50 [00:36<07:34,  9.66s/it, 29.69/3600 seconds]Best trial: 0. Best value: 0.863933:   6%|6         | 3/50 [00:36<07:34,  9.66s/it, 29.69/3600 seconds]Best trial: 0. Best value: 0.863933:   8%|8         | 4/50 [00:36<06:28,  8.46s/it, 29.69/3600 seconds]Best trial: 0. Best value: 0.863933:   8%|8         | 4/50 [00:36<06:28,  8.46s/it, 36.29/3600 seconds]                                                                                                       Best trial: 0. Best value: 0.863933:   8%|8         | 4/50 [00:42<06:28,  8.46s/it, 36.29/3600 seconds]Best trial: 4. Best value: 0.877649:   8%|8         | 4/50 [00:42<06:28,  8.46s/it, 36.29/3600 seconds]Best trial: 4. Best value: 0.877649:  10%|#         | 5/50 [00:42<05:49,  7.78s/it, 36.29/3600 seconds]Best trial: 4. Best value: 0.877649:  10%|#         | 5/50 [00:42<05:49,  7.78s/it, 42.87/3600 seconds]                                                                                                       Best trial: 4. Best value: 0.877649:  10%|#         | 5/50 [00:49<05:49,  7.78s/it, 42.87/3600 seconds]Best trial: 5. Best value: 0.979481:  10%|#         | 5/50 [00:49<05:49,  7.78s/it, 42.87/3600 seconds]Best trial: 5. Best value: 0.979481:  12%|#2        | 6/50 [00:49<05:30,  7.51s/it, 42.87/3600 seconds]Best trial: 5. Best value: 0.979481:  12%|#2        | 6/50 [00:49<05:30,  7.51s/it, 49.85/3600 seconds]                                                                                                       Best trial: 5. Best value: 0.979481:  12%|#2        | 6/50 [00:50<05:30,  7.51s/it, 49.85/3600 seconds]Best trial: 5. Best value: 0.979481:  12%|#2        | 6/50 [00:50<05:30,  7.51s/it, 49.85/3600 seconds]Best trial: 5. Best value: 0.979481:  14%|#4        | 7/50 [00:50<03:47,  5.28s/it, 49.85/3600 seconds]Best trial: 5. Best value: 0.979481:  14%|#4        | 7/50 [00:50<03:47,  5.28s/it, 50.55/3600 seconds]                                                                                                       Best trial: 5. Best value: 0.979481:  14%|#4        | 7/50 [00:51<03:47,  5.28s/it, 50.55/3600 seconds]Best trial: 5. Best value: 0.979481:  14%|#4        | 7/50 [00:51<03:47,  5.28s/it, 50.55/3600 seconds]Best trial: 5. Best value: 0.979481:  16%|#6        | 8/50 [00:51<02:49,  4.03s/it, 50.55/3600 seconds]Best trial: 5. Best value: 0.979481:  16%|#6        | 8/50 [00:51<02:49,  4.03s/it, 51.90/3600 seconds]                                                                                                       Best trial: 5. Best value: 0.979481:  16%|#6        | 8/50 [00:52<02:49,  4.03s/it, 51.90/3600 seconds]Best trial: 5. Best value: 0.979481:  16%|#6        | 8/50 [00:52<02:49,  4.03s/it, 51.90/3600 seconds]Best trial: 5. Best value: 0.979481:  18%|#8        | 9/50 [00:52<02:03,  3.02s/it, 51.90/3600 seconds]Best trial: 5. Best value: 0.979481:  18%|#8        | 9/50 [00:52<02:03,  3.02s/it, 52.69/3600 seconds]                                                                                                       Best trial: 5. Best value: 0.979481:  18%|#8        | 9/50 [00:52<02:03,  3.02s/it, 52.69/3600 seconds]Best trial: 5. Best value: 0.979481:  18%|#8        | 9/50 [00:52<02:03,  3.02s/it, 52.69/3600 seconds]Best trial: 5. Best value: 0.979481:  20%|##        | 10/50 [00:52<02:00,  3.02s/it, 52.75/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  20%|##        | 10/50 [00:52<02:00,  3.02s/it, 52.75/3600 seconds]Best trial: 5. Best value: 0.979481:  20%|##        | 10/50 [00:52<02:00,  3.02s/it, 52.75/3600 seconds]Best trial: 5. Best value: 0.979481:  22%|##2       | 11/50 [00:52<01:03,  1.62s/it, 52.75/3600 seconds]Best trial: 5. Best value: 0.979481:  22%|##2       | 11/50 [00:52<01:03,  1.62s/it, 52.81/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  22%|##2       | 11/50 [00:56<01:03,  1.62s/it, 52.81/3600 seconds]Best trial: 5. Best value: 0.979481:  22%|##2       | 11/50 [00:56<01:03,  1.62s/it, 52.81/3600 seconds]Best trial: 5. Best value: 0.979481:  24%|##4       | 12/50 [00:56<01:20,  2.11s/it, 52.81/3600 seconds]Best trial: 5. Best value: 0.979481:  24%|##4       | 12/50 [00:56<01:20,  2.11s/it, 56.38/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  24%|##4       | 12/50 [01:01<01:20,  2.11s/it, 56.38/3600 seconds]Best trial: 5. Best value: 0.979481:  24%|##4       | 12/50 [01:01<01:20,  2.11s/it, 56.38/3600 seconds]Best trial: 5. Best value: 0.979481:  26%|##6       | 13/50 [01:01<01:46,  2.89s/it, 56.38/3600 seconds]Best trial: 5. Best value: 0.979481:  26%|##6       | 13/50 [01:01<01:46,  2.89s/it, 61.42/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  26%|##6       | 13/50 [01:11<01:46,  2.89s/it, 61.42/3600 seconds]Best trial: 5. Best value: 0.979481:  26%|##6       | 13/50 [01:11<01:46,  2.89s/it, 61.42/3600 seconds]Best trial: 5. Best value: 0.979481:  28%|##8       | 14/50 [01:11<02:50,  4.73s/it, 61.42/3600 seconds]Best trial: 5. Best value: 0.979481:  28%|##8       | 14/50 [01:11<02:50,  4.73s/it, 71.02/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  28%|##8       | 14/50 [01:11<02:50,  4.73s/it, 71.02/3600 seconds]Best trial: 5. Best value: 0.979481:  28%|##8       | 14/50 [01:11<02:50,  4.73s/it, 71.02/3600 seconds]Best trial: 5. Best value: 0.979481:  30%|###       | 15/50 [01:11<02:03,  3.54s/it, 71.02/3600 seconds]Best trial: 5. Best value: 0.979481:  30%|###       | 15/50 [01:11<02:03,  3.54s/it, 71.52/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  30%|###       | 15/50 [01:12<02:03,  3.54s/it, 71.52/3600 seconds]Best trial: 5. Best value: 0.979481:  30%|###       | 15/50 [01:12<02:03,  3.54s/it, 71.52/3600 seconds]Best trial: 5. Best value: 0.979481:  32%|###2      | 16/50 [01:12<01:30,  2.66s/it, 71.52/3600 seconds]Best trial: 5. Best value: 0.979481:  32%|###2      | 16/50 [01:12<01:30,  2.66s/it, 72.01/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  32%|###2      | 16/50 [01:12<01:30,  2.66s/it, 72.01/3600 seconds]Best trial: 5. Best value: 0.979481:  32%|###2      | 16/50 [01:12<01:30,  2.66s/it, 72.01/3600 seconds]Best trial: 5. Best value: 0.979481:  34%|###4      | 17/50 [01:12<01:06,  2.02s/it, 72.01/3600 seconds]Best trial: 5. Best value: 0.979481:  34%|###4      | 17/50 [01:12<01:06,  2.02s/it, 72.47/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  34%|###4      | 17/50 [01:23<01:06,  2.02s/it, 72.47/3600 seconds]Best trial: 5. Best value: 0.979481:  34%|###4      | 17/50 [01:23<01:06,  2.02s/it, 72.47/3600 seconds]Best trial: 5. Best value: 0.979481:  36%|###6      | 18/50 [01:23<02:32,  4.76s/it, 72.47/3600 seconds]Best trial: 5. Best value: 0.979481:  36%|###6      | 18/50 [01:23<02:32,  4.76s/it, 83.80/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  36%|###6      | 18/50 [01:23<02:32,  4.76s/it, 83.80/3600 seconds]Best trial: 5. Best value: 0.979481:  36%|###6      | 18/50 [01:23<02:32,  4.76s/it, 83.80/3600 seconds]Best trial: 5. Best value: 0.979481:  38%|###8      | 19/50 [01:23<02:27,  4.76s/it, 83.89/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  38%|###8      | 19/50 [01:24<02:27,  4.76s/it, 83.89/3600 seconds]Best trial: 5. Best value: 0.979481:  38%|###8      | 19/50 [01:24<02:27,  4.76s/it, 83.89/3600 seconds]Best trial: 5. Best value: 0.979481:  40%|####      | 20/50 [01:24<01:21,  2.73s/it, 83.89/3600 seconds]Best trial: 5. Best value: 0.979481:  40%|####      | 20/50 [01:24<01:21,  2.73s/it, 84.41/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  40%|####      | 20/50 [01:25<01:21,  2.73s/it, 84.41/3600 seconds]Best trial: 5. Best value: 0.979481:  40%|####      | 20/50 [01:25<01:21,  2.73s/it, 84.41/3600 seconds]Best trial: 5. Best value: 0.979481:  42%|####2     | 21/50 [01:25<01:03,  2.20s/it, 84.41/3600 seconds]Best trial: 5. Best value: 0.979481:  42%|####2     | 21/50 [01:25<01:03,  2.20s/it, 85.02/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  42%|####2     | 21/50 [01:32<01:03,  2.20s/it, 85.02/3600 seconds]Best trial: 5. Best value: 0.979481:  42%|####2     | 21/50 [01:32<01:03,  2.20s/it, 85.02/3600 seconds]Best trial: 5. Best value: 0.979481:  44%|####4     | 22/50 [01:32<01:39,  3.55s/it, 85.02/3600 seconds]Best trial: 5. Best value: 0.979481:  44%|####4     | 22/50 [01:32<01:39,  3.55s/it, 92.41/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  44%|####4     | 22/50 [01:32<01:39,  3.55s/it, 92.41/3600 seconds]Best trial: 5. Best value: 0.979481:  44%|####4     | 22/50 [01:32<01:39,  3.55s/it, 92.41/3600 seconds]Best trial: 5. Best value: 0.979481:  46%|####6     | 23/50 [01:32<01:13,  2.73s/it, 92.41/3600 seconds]Best trial: 5. Best value: 0.979481:  46%|####6     | 23/50 [01:32<01:13,  2.73s/it, 92.93/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  46%|####6     | 23/50 [01:33<01:13,  2.73s/it, 92.93/3600 seconds]Best trial: 5. Best value: 0.979481:  46%|####6     | 23/50 [01:33<01:13,  2.73s/it, 92.93/3600 seconds]Best trial: 5. Best value: 0.979481:  48%|####8     | 24/50 [01:33<00:55,  2.13s/it, 92.93/3600 seconds]Best trial: 5. Best value: 0.979481:  48%|####8     | 24/50 [01:33<00:55,  2.13s/it, 93.52/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  48%|####8     | 24/50 [01:34<00:55,  2.13s/it, 93.52/3600 seconds]Best trial: 5. Best value: 0.979481:  48%|####8     | 24/50 [01:34<00:55,  2.13s/it, 93.52/3600 seconds]Best trial: 5. Best value: 0.979481:  50%|#####     | 25/50 [01:34<00:41,  1.67s/it, 93.52/3600 seconds]Best trial: 5. Best value: 0.979481:  50%|#####     | 25/50 [01:34<00:41,  1.67s/it, 94.03/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  50%|#####     | 25/50 [01:34<00:41,  1.67s/it, 94.03/3600 seconds]Best trial: 5. Best value: 0.979481:  50%|#####     | 25/50 [01:34<00:41,  1.67s/it, 94.03/3600 seconds]Best trial: 5. Best value: 0.979481:  52%|#####2    | 26/50 [01:34<00:32,  1.36s/it, 94.03/3600 seconds]Best trial: 5. Best value: 0.979481:  52%|#####2    | 26/50 [01:34<00:32,  1.36s/it, 94.62/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  52%|#####2    | 26/50 [01:35<00:32,  1.36s/it, 94.62/3600 seconds]Best trial: 5. Best value: 0.979481:  52%|#####2    | 26/50 [01:35<00:32,  1.36s/it, 94.62/3600 seconds]Best trial: 5. Best value: 0.979481:  54%|#####4    | 27/50 [01:35<00:27,  1.22s/it, 94.62/3600 seconds]Best trial: 5. Best value: 0.979481:  54%|#####4    | 27/50 [01:35<00:27,  1.22s/it, 95.49/3600 seconds]                                                                                                        Best trial: 5. Best value: 0.979481:  54%|#####4    | 27/50 [01:42<00:27,  1.22s/it, 95.49/3600 seconds]Best trial: 5. Best value: 0.979481:  54%|#####4    | 27/50 [01:42<00:27,  1.22s/it, 95.49/3600 seconds]Best trial: 5. Best value: 0.979481:  56%|#####6    | 28/50 [01:42<01:04,  2.95s/it, 95.49/3600 seconds]Best trial: 5. Best value: 0.979481:  56%|#####6    | 28/50 [01:42<01:04,  2.95s/it, 102.60/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  56%|#####6    | 28/50 [01:43<01:04,  2.95s/it, 102.60/3600 seconds]Best trial: 5. Best value: 0.979481:  56%|#####6    | 28/50 [01:43<01:04,  2.95s/it, 102.60/3600 seconds]Best trial: 5. Best value: 0.979481:  58%|#####8    | 29/50 [01:43<00:47,  2.25s/it, 102.60/3600 seconds]Best trial: 5. Best value: 0.979481:  58%|#####8    | 29/50 [01:43<00:47,  2.25s/it, 103.17/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  58%|#####8    | 29/50 [01:43<00:47,  2.25s/it, 103.17/3600 seconds]Best trial: 5. Best value: 0.979481:  58%|#####8    | 29/50 [01:43<00:47,  2.25s/it, 103.17/3600 seconds]Best trial: 5. Best value: 0.979481:  60%|######    | 30/50 [01:43<00:35,  1.78s/it, 103.17/3600 seconds]Best trial: 5. Best value: 0.979481:  60%|######    | 30/50 [01:43<00:35,  1.78s/it, 103.83/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  60%|######    | 30/50 [01:44<00:35,  1.78s/it, 103.83/3600 seconds]Best trial: 5. Best value: 0.979481:  60%|######    | 30/50 [01:44<00:35,  1.78s/it, 103.83/3600 seconds]Best trial: 5. Best value: 0.979481:  62%|######2   | 31/50 [01:44<00:26,  1.40s/it, 103.83/3600 seconds]Best trial: 5. Best value: 0.979481:  62%|######2   | 31/50 [01:44<00:26,  1.40s/it, 104.35/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  62%|######2   | 31/50 [01:44<00:26,  1.40s/it, 104.35/3600 seconds]Best trial: 5. Best value: 0.979481:  62%|######2   | 31/50 [01:44<00:26,  1.40s/it, 104.35/3600 seconds]Best trial: 5. Best value: 0.979481:  64%|######4   | 32/50 [01:44<00:20,  1.13s/it, 104.35/3600 seconds]Best trial: 5. Best value: 0.979481:  64%|######4   | 32/50 [01:44<00:20,  1.13s/it, 104.85/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  64%|######4   | 32/50 [01:52<00:20,  1.13s/it, 104.85/3600 seconds]Best trial: 5. Best value: 0.979481:  64%|######4   | 32/50 [01:52<00:20,  1.13s/it, 104.85/3600 seconds]Best trial: 5. Best value: 0.979481:  66%|######6   | 33/50 [01:52<00:50,  2.98s/it, 104.85/3600 seconds]Best trial: 5. Best value: 0.979481:  66%|######6   | 33/50 [01:52<00:50,  2.98s/it, 112.17/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  66%|######6   | 33/50 [01:56<00:50,  2.98s/it, 112.17/3600 seconds]Best trial: 5. Best value: 0.979481:  66%|######6   | 33/50 [01:56<00:50,  2.98s/it, 112.17/3600 seconds]Best trial: 5. Best value: 0.979481:  68%|######8   | 34/50 [01:56<00:52,  3.31s/it, 112.17/3600 seconds]Best trial: 5. Best value: 0.979481:  68%|######8   | 34/50 [01:56<00:52,  3.31s/it, 116.23/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  68%|######8   | 34/50 [01:57<00:52,  3.31s/it, 116.23/3600 seconds]Best trial: 5. Best value: 0.979481:  68%|######8   | 34/50 [01:57<00:52,  3.31s/it, 116.23/3600 seconds]Best trial: 5. Best value: 0.979481:  70%|#######   | 35/50 [01:57<00:39,  2.62s/it, 116.23/3600 seconds]Best trial: 5. Best value: 0.979481:  70%|#######   | 35/50 [01:57<00:39,  2.62s/it, 117.23/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  70%|#######   | 35/50 [01:57<00:39,  2.62s/it, 117.23/3600 seconds]Best trial: 5. Best value: 0.979481:  70%|#######   | 35/50 [01:57<00:39,  2.62s/it, 117.23/3600 seconds]Best trial: 5. Best value: 0.979481:  72%|#######2  | 36/50 [01:57<00:27,  1.97s/it, 117.23/3600 seconds]Best trial: 5. Best value: 0.979481:  72%|#######2  | 36/50 [01:57<00:27,  1.97s/it, 117.71/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  72%|#######2  | 36/50 [01:58<00:27,  1.97s/it, 117.71/3600 seconds]Best trial: 5. Best value: 0.979481:  72%|#######2  | 36/50 [01:58<00:27,  1.97s/it, 117.71/3600 seconds]Best trial: 5. Best value: 0.979481:  74%|#######4  | 37/50 [01:58<00:19,  1.53s/it, 117.71/3600 seconds]Best trial: 5. Best value: 0.979481:  74%|#######4  | 37/50 [01:58<00:19,  1.53s/it, 118.21/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  74%|#######4  | 37/50 [01:58<00:19,  1.53s/it, 118.21/3600 seconds]Best trial: 5. Best value: 0.979481:  74%|#######4  | 37/50 [01:58<00:19,  1.53s/it, 118.21/3600 seconds]Best trial: 5. Best value: 0.979481:  76%|#######6  | 38/50 [01:58<00:18,  1.53s/it, 118.28/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  76%|#######6  | 38/50 [01:59<00:18,  1.53s/it, 118.28/3600 seconds]Best trial: 5. Best value: 0.979481:  76%|#######6  | 38/50 [01:59<00:18,  1.53s/it, 118.28/3600 seconds]Best trial: 5. Best value: 0.979481:  78%|#######8  | 39/50 [01:59<00:11,  1.03s/it, 118.28/3600 seconds]Best trial: 5. Best value: 0.979481:  78%|#######8  | 39/50 [01:59<00:11,  1.03s/it, 119.08/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  78%|#######8  | 39/50 [01:59<00:11,  1.03s/it, 119.08/3600 seconds]Best trial: 5. Best value: 0.979481:  78%|#######8  | 39/50 [01:59<00:11,  1.03s/it, 119.08/3600 seconds]Best trial: 5. Best value: 0.979481:  80%|########  | 40/50 [01:59<00:09,  1.10it/s, 119.08/3600 seconds]Best trial: 5. Best value: 0.979481:  80%|########  | 40/50 [01:59<00:09,  1.10it/s, 119.64/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  80%|########  | 40/50 [02:00<00:09,  1.10it/s, 119.64/3600 seconds]Best trial: 5. Best value: 0.979481:  80%|########  | 40/50 [02:00<00:09,  1.10it/s, 119.64/3600 seconds]Best trial: 5. Best value: 0.979481:  82%|########2 | 41/50 [02:00<00:07,  1.24it/s, 119.64/3600 seconds]Best trial: 5. Best value: 0.979481:  82%|########2 | 41/50 [02:00<00:07,  1.24it/s, 120.16/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  82%|########2 | 41/50 [02:08<00:07,  1.24it/s, 120.16/3600 seconds]Best trial: 5. Best value: 0.979481:  82%|########2 | 41/50 [02:08<00:07,  1.24it/s, 120.16/3600 seconds]Best trial: 5. Best value: 0.979481:  84%|########4 | 42/50 [02:08<00:22,  2.79s/it, 120.16/3600 seconds]Best trial: 5. Best value: 0.979481:  84%|########4 | 42/50 [02:08<00:22,  2.79s/it, 128.24/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  84%|########4 | 42/50 [02:08<00:22,  2.79s/it, 128.24/3600 seconds]Best trial: 5. Best value: 0.979481:  84%|########4 | 42/50 [02:08<00:22,  2.79s/it, 128.24/3600 seconds]Best trial: 5. Best value: 0.979481:  86%|########6 | 43/50 [02:08<00:15,  2.15s/it, 128.24/3600 seconds]Best trial: 5. Best value: 0.979481:  86%|########6 | 43/50 [02:08<00:15,  2.15s/it, 128.74/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  86%|########6 | 43/50 [02:09<00:15,  2.15s/it, 128.74/3600 seconds]Best trial: 5. Best value: 0.979481:  86%|########6 | 43/50 [02:09<00:15,  2.15s/it, 128.74/3600 seconds]Best trial: 5. Best value: 0.979481:  88%|########8 | 44/50 [02:09<00:10,  1.68s/it, 128.74/3600 seconds]Best trial: 5. Best value: 0.979481:  88%|########8 | 44/50 [02:09<00:10,  1.68s/it, 129.24/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  88%|########8 | 44/50 [02:16<00:10,  1.68s/it, 129.24/3600 seconds]Best trial: 5. Best value: 0.979481:  88%|########8 | 44/50 [02:16<00:10,  1.68s/it, 129.24/3600 seconds]Best trial: 5. Best value: 0.979481:  90%|######### | 45/50 [02:16<00:16,  3.32s/it, 129.24/3600 seconds]Best trial: 5. Best value: 0.979481:  90%|######### | 45/50 [02:16<00:16,  3.32s/it, 136.60/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  90%|######### | 45/50 [02:17<00:16,  3.32s/it, 136.60/3600 seconds]Best trial: 5. Best value: 0.979481:  90%|######### | 45/50 [02:17<00:16,  3.32s/it, 136.60/3600 seconds]Best trial: 5. Best value: 0.979481:  92%|#########2| 46/50 [02:17<00:10,  2.51s/it, 136.60/3600 seconds]Best trial: 5. Best value: 0.979481:  92%|#########2| 46/50 [02:17<00:10,  2.51s/it, 137.14/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  92%|#########2| 46/50 [02:17<00:10,  2.51s/it, 137.14/3600 seconds]Best trial: 5. Best value: 0.979481:  92%|#########2| 46/50 [02:17<00:10,  2.51s/it, 137.14/3600 seconds]Best trial: 5. Best value: 0.979481:  94%|#########3| 47/50 [02:17<00:05,  1.86s/it, 137.14/3600 seconds]Best trial: 5. Best value: 0.979481:  94%|#########3| 47/50 [02:17<00:05,  1.86s/it, 137.46/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  94%|#########3| 47/50 [02:17<00:05,  1.86s/it, 137.46/3600 seconds]Best trial: 5. Best value: 0.979481:  94%|#########3| 47/50 [02:17<00:05,  1.86s/it, 137.46/3600 seconds]Best trial: 5. Best value: 0.979481:  96%|#########6| 48/50 [02:17<00:02,  1.46s/it, 137.46/3600 seconds]Best trial: 5. Best value: 0.979481:  96%|#########6| 48/50 [02:17<00:02,  1.46s/it, 137.96/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  96%|#########6| 48/50 [02:18<00:02,  1.46s/it, 137.96/3600 seconds]Best trial: 5. Best value: 0.979481:  96%|#########6| 48/50 [02:18<00:02,  1.46s/it, 137.96/3600 seconds]Best trial: 5. Best value: 0.979481:  98%|#########8| 49/50 [02:18<00:01,  1.09s/it, 137.96/3600 seconds]Best trial: 5. Best value: 0.979481:  98%|#########8| 49/50 [02:18<00:01,  1.09s/it, 138.17/3600 seconds]                                                                                                         Best trial: 5. Best value: 0.979481:  98%|#########8| 49/50 [02:18<00:01,  1.09s/it, 138.17/3600 seconds]Best trial: 5. Best value: 0.979481:  98%|#########8| 49/50 [02:18<00:01,  1.09s/it, 138.17/3600 seconds]Best trial: 5. Best value: 0.979481: 100%|##########| 50/50 [02:18<00:00,  1.02it/s, 138.17/3600 seconds]Best trial: 5. Best value: 0.979481: 100%|##########| 50/50 [02:18<00:00,  1.02it/s, 138.90/3600 seconds]Best trial: 5. Best value: 0.979481: 100%|##########| 50/50 [02:18<00:00,  2.78s/it, 138.90/3600 seconds]
+6743234
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: []
+- X_train_shape: (2740, 20002)
+- X_test_shape: (587, 20002)
+- input_dim: 20002
+- gpu_cache_enabled: True
+Cached to GPU: X=209.07 MiB, y=0.01 MiB
+Cached to GPU: X=44.79 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 10578181
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=nan | 
+val_R2=-3923.372559 | bs=256[I 2025-08-08 16:59:37,641] Trial 18 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 128
+- num_blocks: 3
+- dropout: 0.13324200580273893
+- lr: 0.0001905082931873596
+- batch_size: 64
+- residual_init: 0.8614784668161917
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 10107)
+- X_test_shape: (587, 10107)
+- input_dim: 10107
+- gpu_cache_enabled: True
+Cached to GPU: X=105.64 MiB, y=0.01 MiB
+Cached to GPU: X=22.63 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 1394564
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=178.040364 |
+val_R2=-9.700527 | bs=256[I 2025-08-08 16:59:38,163] Trial 19 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 256
+- num_blocks: 4
+- dropout: 0.0067896327285335515
+- lr: 0.0004785819194318838
+- batch_size: 128
+- residual_init: 1.1012698490808237
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 14612)
+- X_test_shape: (587, 14612)
+- input_dim: 14612
+- gpu_cache_enabled: True
+Cached to GPU: X=152.73 MiB, y=0.01 MiB
+Cached to GPU: X=32.72 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 4271621
+
+Trial pruned
+Trial running | epoch=0002 | train_loss=10.078617 | 
+val_R2=0.262931 | bs=256[I 2025-08-08 16:59:38,769] Trial 20 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 128
+- num_blocks: 5
+- dropout: 0.11308427838962501
+- lr: 0.00013778211621528637
+- batch_size: 256
+- residual_init: 1.3669615046862866
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 8468)
+- X_test_shape: (587, 8468)
+- input_dim: 8468
+- gpu_cache_enabled: True
+Cached to GPU: X=88.51 MiB, y=0.01 MiB
+Cached to GPU: X=18.96 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 1251846
+
+Early stop on patience after min_epochs
+Trial running | epoch=0213 | train_loss=0.377055 | 
+val_R2=0.904226 | bs=256
+[I 2025-08-08 16:59:46,156] Trial 21 finished with value: 0.9176816344261169 and parameters: {'hidden_dim': 128, 'num_blocks': 5, 'dropout': 0.11308427838962501, 'lr': 0.00013778211621528637, 'batch_size': 256, 'residual_init': 1.3669615046862866, 'use_variance_threshold': False, 'use_standard_scaler': True, 'use_select_kbest': True, 'kbest_k': 8468}. Best is trial 5 with value: 0.9794812202453613.
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 64
+- num_blocks: 5
+- dropout: 0.06291298927435732
+- lr: 0.00015463301407782015
+- batch_size: 256
+- residual_init: 1.450323099398828
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 9313)
+- X_test_shape: (587, 9313)
+- input_dim: 9313
+- gpu_cache_enabled: True
+Cached to GPU: X=97.34 MiB, y=0.01 MiB
+Cached to GPU: X=20.85 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 639046
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=184.158157 |
+val_R2=-9.371531 | bs=256[I 2025-08-08 16:59:46,682] Trial 22 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 192
+- num_blocks: 5
+- dropout: 0.1304386696671845
+- lr: 0.0009859147372222982
+- batch_size: 256
+- residual_init: 1.373414804757379
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 8561)
+- X_test_shape: (587, 8561)
+- input_dim: 8561
+- gpu_cache_enabled: True
+Cached to GPU: X=89.48 MiB, y=0.01 MiB
+Cached to GPU: X=19.17 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 2018502
+
+Trial pruned
+Trial running | epoch=0002 | train_loss=8.207213 | 
+val_R2=0.416325 | bs=256[I 2025-08-08 16:59:47,268] Trial 23 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 128
+- num_blocks: 4
+- dropout: 0.16851358697971458
+- lr: 0.0002717606285602567
+- batch_size: 256
+- residual_init: 0.7760168946875765
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 12283)
+- X_test_shape: (587, 12283)
+- input_dim: 12283
+- gpu_cache_enabled: True
+Cached to GPU: X=128.39 MiB, y=0.01 MiB
+Cached to GPU: X=27.50 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 1706629
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=186.670166 |
+val_R2=-11.162560 | bs=256[I 2025-08-08 16:59:47,778] Trial 24 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 384
+- num_blocks: 3
+- dropout: 0.20467061635563438
+- lr: 0.0001198486855148268
+- batch_size: 256
+- residual_init: 1.0355590595977926
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 12189)
+- X_test_shape: (587, 12189)
+- input_dim: 12189
+- gpu_cache_enabled: True
+Cached to GPU: X=127.40 MiB, y=0.01 MiB
+Cached to GPU: X=27.29 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 5572996
+
+Trial pruned
+Trial running | epoch=0002 | train_loss=3.116941 | 
+val_R2=-0.494651 | bs=256[I 2025-08-08 16:59:48,371] Trial 25 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 256
+- num_blocks: 4
+- dropout: 0.11054994587140747
+- lr: 5.498815924822397e-05
+- batch_size: 256
+- residual_init: 1.347004535403855
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['var']
+- X_train_shape: (2740, 19976)
+- X_test_shape: (587, 19976)
+- input_dim: 19976
+- gpu_cache_enabled: True
+Cached to GPU: X=208.79 MiB, y=0.01 MiB
+Cached to GPU: X=44.73 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 5644805
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=nan | 
+val_R2=-5525.015137 | bs=256[I 2025-08-08 16:59:49,240] Trial 26 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 128
+- num_blocks: 5
+- dropout: 0.052279979963231166
+- lr: 0.0003055278121603238
+- batch_size: 256
+- residual_init: 1.2637600348311546
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 8486)
+- X_test_shape: (587, 8486)
+- input_dim: 8486
+- gpu_cache_enabled: True
+Cached to GPU: X=88.70 MiB, y=0.01 MiB
+Cached to GPU: X=19.00 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 1254150
+
+Early stop on patience after min_epochs
+Trial running | epoch=0199 | train_loss=0.311837 | 
+val_R2=0.957261 | bs=256
+[I 2025-08-08 16:59:56,349] Trial 27 finished with value: 0.966647744178772 and parameters: {'hidden_dim': 128, 'num_blocks': 5, 'dropout': 0.052279979963231166, 'lr': 0.0003055278121603238, 'batch_size': 256, 'residual_init': 1.2637600348311546, 'use_variance_threshold': False, 'use_standard_scaler': True, 'use_select_kbest': True, 'kbest_k': 8486}. Best is trial 5 with value: 0.9794812202453613.
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 192
+- num_blocks: 7
+- dropout: 0.05939234927214217
+- lr: 0.0014168252173644728
+- batch_size: 64
+- residual_init: 1.7434374434379158
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 4339)
+- X_test_shape: (587, 4339)
+- input_dim: 4339
+- gpu_cache_enabled: True
+Cached to GPU: X=45.35 MiB, y=0.01 MiB
+Cached to GPU: X=9.72 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 1357640
+
+Trial pruned
+Trial running | epoch=0002 | train_loss=7.683597 | 
+val_R2=0.016451 | bs=256[I 2025-08-08 16:59:56,919] Trial 28 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 64
+- num_blocks: 7
+- dropout: 0.021237905357493897
+- lr: 0.00043124327781231573
+- batch_size: 256
+- residual_init: 1.2090489711018628
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['var', 'scaler']
+- X_train_shape: (2740, 20002)
+- X_test_shape: (587, 20002)
+- input_dim: 20002
+- gpu_cache_enabled: True
+Cached to GPU: X=209.07 MiB, y=0.01 MiB
+Cached to GPU: X=44.79 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 1340296
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=184.832956 |
+val_R2=-10.303490 | bs=256[I 2025-08-08 16:59:57,584] Trial 29 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 320
+- num_blocks: 3
+- dropout: 0.06855789513151825
+- lr: 0.0003138273544500439
+- batch_size: 128
+- residual_init: 0.5819377882219341
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 11086)
+- X_test_shape: (587, 11086)
+- input_dim: 11086
+- gpu_cache_enabled: True
+Cached to GPU: X=115.87 MiB, y=0.01 MiB
+Cached to GPU: X=24.82 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 4168324
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=217.937794 |
+val_R2=-17.482349 | bs=256[I 2025-08-08 16:59:58,101] Trial 30 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 128
+- num_blocks: 5
+- dropout: 0.11687987242878359
+- lr: 0.00015069421280173553
+- batch_size: 256
+- residual_init: 1.06868046541555
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 8308)
+- X_test_shape: (587, 8308)
+- input_dim: 8308
+- gpu_cache_enabled: True
+Cached to GPU: X=86.84 MiB, y=0.01 MiB
+Cached to GPU: X=18.60 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 1231366
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=191.547735 |
+val_R2=-7.764036 | bs=256[I 2025-08-08 16:59:58,605] Trial 31 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 128
+- num_blocks: 5
+- dropout: 0.14368693319921225
+- lr: 0.0006118620225849257
+- batch_size: 256
+- residual_init: 1.2469031717299075
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 7841)
+- X_test_shape: (587, 7841)
+- input_dim: 7841
+- gpu_cache_enabled: True
+Cached to GPU: X=81.96 MiB, y=0.01 MiB
+Cached to GPU: X=17.56 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 1171590
+
+Early stop on patience after min_epochs
+Trial running | epoch=0212 | train_loss=0.438242 | 
+val_R2=0.847122 | bs=256
+[I 2025-08-08 17:00:05,920] Trial 32 finished with value: 0.919898271560669 and parameters: {'hidden_dim': 128, 'num_blocks': 5, 'dropout': 0.14368693319921225, 'lr': 0.0006118620225849257, 'batch_size': 256, 'residual_init': 1.2469031717299075, 'use_variance_threshold': False, 'use_standard_scaler': True, 'use_select_kbest': True, 'kbest_k': 7841}. Best is trial 5 with value: 0.9794812202453613.
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 192
+- num_blocks: 5
+- dropout: 0.14780558803633204
+- lr: 0.0006720843486845807
+- batch_size: 256
+- residual_init: 0.8859797050197014
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 7657)
+- X_test_shape: (587, 7657)
+- input_dim: 7657
+- gpu_cache_enabled: True
+Cached to GPU: X=80.03 MiB, y=0.01 MiB
+Cached to GPU: X=17.15 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 1844934
+
+Trial pruned
+Trial running | epoch=0107 | train_loss=0.471962 | 
+val_R2=0.826064 | bs=256[I 2025-08-08 17:00:09,984] Trial 33 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 192
+- num_blocks: 4
+- dropout: 0.02186340380940332
+- lr: 7.405140747045192e-05
+- batch_size: 256
+- residual_init: 0.9378488848725007
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['var', 'scaler', 'kbest']
+- X_train_shape: (2740, 14294)
+- X_test_shape: (587, 14294)
+- input_dim: 14294
+- gpu_cache_enabled: True
+Cached to GPU: X=149.40 MiB, y=0.01 MiB
+Cached to GPU: X=32.01 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 3044357
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=186.263220 |
+val_R2=-8.497331 | bs=256[I 2025-08-08 17:00:10,984] Trial 34 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 64
+- num_blocks: 6
+- dropout: 0.207852863632178
+- lr: 0.00024826068270932184
+- batch_size: 256
+- residual_init: 1.2299760244760733
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 4439)
+- X_test_shape: (587, 4439)
+- input_dim: 4439
+- gpu_cache_enabled: True
+Cached to GPU: X=46.40 MiB, y=0.01 MiB
+Cached to GPU: X=9.94 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 335687
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=179.415555 |
+val_R2=-8.227577 | bs=256[I 2025-08-08 17:00:11,458] Trial 35 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 192
+- num_blocks: 4
+- dropout: 0.14763701067250828
+- lr: 0.0012383547384848266
+- batch_size: 256
+- residual_init: 1.1404533140936362
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 10598)
+- X_test_shape: (587, 10598)
+- input_dim: 10598
+- gpu_cache_enabled: True
+Cached to GPU: X=110.77 MiB, y=0.01 MiB
+Cached to GPU: X=23.73 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 2334725
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=203.259717 |
+val_R2=-13.941080 | bs=256[I 2025-08-08 17:00:11,955] Trial 36 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 256
+- num_blocks: 5
+- dropout: 0.04352239009016715
+- lr: 0.0005422695507765534
+- batch_size: 64
+- residual_init: 0.9736233540434188
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: []
+- X_train_shape: (2740, 20002)
+- X_test_shape: (587, 20002)
+- input_dim: 20002
+- gpu_cache_enabled: True
+Cached to GPU: X=209.07 MiB, y=0.01 MiB
+Cached to GPU: X=44.79 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 5784070
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=nan | 
+val_R2=-1880.365234 | bs=256[I 2025-08-08 17:00:12,028] Trial 37 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 512
+- num_blocks: 3
+- dropout: 0.07746749015569815
+- lr: 0.002066950721173002
+- batch_size: 32
+- residual_init: 1.4747132608391718
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['var', 'scaler', 'kbest']
+- X_train_shape: (2740, 3178)
+- X_test_shape: (587, 3178)
+- input_dim: 3178
+- gpu_cache_enabled: True
+Cached to GPU: X=33.22 MiB, y=0.01 MiB
+Cached to GPU: X=7.12 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 3210244
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=282.784311 |
+val_R2=-110.660873 | bs=256[I 2025-08-08 17:00:12,827] Trial 38 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 320
+- num_blocks: 5
+- dropout: 0.230100600319526
+- lr: 8.325855758175107e-05
+- batch_size: 256
+- residual_init: 0.7853677948501934
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 7445)
+- X_test_shape: (587, 7445)
+- input_dim: 7445
+- gpu_cache_enabled: True
+Cached to GPU: X=77.82 MiB, y=0.01 MiB
+Cached to GPU: X=16.67 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 3416646
+
+Trial pruned
+Trial running | epoch=0002 | train_loss=8.044475 | 
+val_R2=-0.395151 | bs=256[I 2025-08-08 17:00:13,391] Trial 39 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 128
+- num_blocks: 4
+- dropout: 0.2913748321612037
+- lr: 0.0006873627112343127
+- batch_size: 32
+- residual_init: 0.384838099632687
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['var', 'kbest']
+- X_train_shape: (2740, 738)
+- X_test_shape: (587, 738)
+- input_dim: 738
+- gpu_cache_enabled: True
+Cached to GPU: X=7.71 MiB, y=0.01 MiB
+Cached to GPU: X=1.65 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 228869
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=232.395763 |
+val_R2=-10.745436 | bs=256[I 2025-08-08 17:00:13,905] Trial 40 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 128
+- num_blocks: 6
+- dropout: 0.1231854417817217
+- lr: 0.00014234055855675
+- batch_size: 256
+- residual_init: 1.3483648482687878
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 9100)
+- X_test_shape: (587, 9100)
+- input_dim: 9100
+- gpu_cache_enabled: True
+Cached to GPU: X=95.12 MiB, y=0.01 MiB
+Cached to GPU: X=20.38 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 1366279
+
+Early stop on patience after min_epochs
+Trial running | epoch=0199 | train_loss=0.417033 | 
+val_R2=0.871340 | bs=256
+[I 2025-08-08 17:00:21,986] Trial 41 finished with value: 0.898857057094574 and parameters: {'hidden_dim': 128, 'num_blocks': 6, 'dropout': 0.1231854417817217, 'lr': 0.00014234055855675, 'batch_size': 256, 'residual_init': 1.3483648482687878, 'use_variance_threshold': False, 'use_standard_scaler': True, 'use_select_kbest': True, 'kbest_k': 9100}. Best is trial 5 with value: 0.9794812202453613.
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 128
+- num_blocks: 5
+- dropout: 0.0985582258978975
+- lr: 0.00010216574911261219
+- batch_size: 256
+- residual_init: 1.2337802375200324
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 11379)
+- X_test_shape: (587, 11379)
+- input_dim: 11379
+- gpu_cache_enabled: True
+Cached to GPU: X=118.94 MiB, y=0.01 MiB
+Cached to GPU: X=25.48 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 1624454
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=174.939749 |
+val_R2=-6.947584 | bs=256[I 2025-08-08 17:00:22,494] Trial 42 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 64
+- num_blocks: 5
+- dropout: 0.1643553713018808
+- lr: 0.009514745498470655
+- batch_size: 256
+- residual_init: 1.6753200385133367
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 5514)
+- X_test_shape: (587, 5514)
+- input_dim: 5514
+- gpu_cache_enabled: True
+Cached to GPU: X=57.63 MiB, y=0.01 MiB
+Cached to GPU: X=12.35 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 395910
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=491.402742 |
+val_R2=-76.495346 | bs=256[I 2025-08-08 17:00:22,986] Trial 43 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 128
+- num_blocks: 4
+- dropout: 0.1397421093661576
+- lr: 0.00035997436428933903
+- batch_size: 256
+- residual_init: 1.2988920289737498
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 9311)
+- X_test_shape: (587, 9311)
+- input_dim: 9311
+- gpu_cache_enabled: True
+Cached to GPU: X=97.32 MiB, y=0.01 MiB
+Cached to GPU: X=20.85 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 1326213
+
+Early stop on patience after min_epochs
+Trial running | epoch=0248 | train_loss=0.330610 | 
+val_R2=0.926981 | bs=256
+[I 2025-08-08 17:00:30,353] Trial 44 finished with value: 0.9381188750267029 and parameters: {'hidden_dim': 128, 'num_blocks': 4, 'dropout': 0.1397421093661576, 'lr': 0.00035997436428933903, 'batch_size': 256, 'residual_init': 1.2988920289737498, 'use_variance_threshold': False, 'use_standard_scaler': True, 'use_select_kbest': True, 'kbest_k': 9311}. Best is trial 5 with value: 0.9794812202453613.
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 192
+- num_blocks: 4
+- dropout: 0.13867408856737531
+- lr: 0.00036338919527747766
+- batch_size: 128
+- residual_init: 1.289645406381184
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 9550)
+- X_test_shape: (587, 9550)
+- input_dim: 9550
+- gpu_cache_enabled: True
+Cached to GPU: X=99.82 MiB, y=0.01 MiB
+Cached to GPU: X=21.38 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 2133509
+
+Trial pruned
+Trial running | epoch=0001 | train_loss=13.523869 | 
+val_R2=-0.810765 | bs=256[I 2025-08-08 17:00:30,889] Trial 45 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 64
+- num_blocks: 3
+- dropout: 0.2743866151136074
+- lr: 0.000230876817709235
+- batch_size: 256
+- residual_init: 1.4928211458543792
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler']
+- X_train_shape: (2740, 20002)
+- X_test_shape: (587, 20002)
+- input_dim: 20002
+- gpu_cache_enabled: True
+Cached to GPU: X=209.07 MiB, y=0.01 MiB
+Cached to GPU: X=44.79 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 1305988
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=187.018933 |
+val_R2=-11.126469 | bs=256[I 2025-08-08 17:00:31,205] Trial 46 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 384
+- num_blocks: 2
+- dropout: 0.18276736695977858
+- lr: 0.00037500593445015173
+- batch_size: 64
+- residual_init: 1.0044939384546694
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 13287)
+- X_test_shape: (587, 13287)
+- input_dim: 13287
+- gpu_cache_enabled: True
+Cached to GPU: X=138.88 MiB, y=0.01 MiB
+Cached to GPU: X=29.75 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 5697411
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=197.867016 |
+val_R2=-8.218800 | bs=256[I 2025-08-08 17:00:31,710] Trial 47 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 256
+- num_blocks: 4
+- dropout: 0.01772701487538194
+- lr: 2.0307357441308018e-05
+- batch_size: 256
+- residual_init: 1.1061019899587559
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['kbest']
+- X_train_shape: (2740, 7351)
+- X_test_shape: (587, 7351)
+- input_dim: 7351
+- gpu_cache_enabled: True
+Cached to GPU: X=76.83 MiB, y=0.01 MiB
+Cached to GPU: X=16.46 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 2412805
+
+Trial pruned
+Trial running | epoch=0000 | train_loss=nan | 
+val_R2=-398.503876 | bs=256[I 2025-08-08 17:00:31,918] Trial 48 pruned. 
+
+================================================================================
+Starting trial
+================================================================================
+- hidden_dim: 448
+- num_blocks: 5
+- dropout: 0.19625799948291647
+- lr: 4.898350467309586e-05
+- batch_size: 32
+- residual_init: 1.8760115626094191
+- X_train_raw_shape: (2740, 20002)
+- X_val_raw_shape: (587, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (2740, 10117)
+- X_test_shape: (587, 10117)
+- input_dim: 10117
+- gpu_cache_enabled: True
+Cached to GPU: X=105.75 MiB, y=0.01 MiB
+Cached to GPU: X=22.65 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 6553798
+
+Trial pruned
+Trial running | epoch=0005 | train_loss=2.069518 | 
+val_R2=-0.705966 | bs=256[I 2025-08-08 17:00:32,651] Trial 49 pruned. 
+Saved Optuna trials history -> inference-ready/optuna_trials.csv
+Best trial R²: 0.979481
+Best parameters: {'hidden_dim': 320, 'num_blocks': 4, 'dropout': 0.01906750508580709, 'lr': 8.569331925053983e-05, 'batch_size': 256, 'residual_init': 0.9444298503238986, 'use_variance_threshold': False, 'use_standard_scaler': True, 'use_select_kbest': True, 'kbest_k': 10456}
+
+================================================================================
+Final training with best parameters
+================================================================================
+- hidden_dim: 320
+- num_blocks: 4
+- dropout: 0.01906750508580709
+- lr: 8.569331925053983e-05
+- batch_size: 256
+- residual_init: 0.9444298503238986
+- use_variance_threshold: False
+- use_standard_scaler: True
+- use_select_kbest: True
+- kbest_k: 10456
+- X_trainval_raw_shape: (3327, 20002)
+- X_holdout_raw_shape: (588, 20002)
+Preprocessing steps: ['scaler', 'kbest']
+- X_train_shape: (3327, 10456)
+- X_holdout_shape: (588, 10456)
+- input_dim: 10456
+- gpu_cache_enabled: True
+Cached to GPU: X=132.70 MiB, y=0.01 MiB
+Cached to GPU: X=13.28 MiB, y=0.00 MiB
+- effective_batch_size: 256
+Total parameters: 4173445
+Final train | epoch=0000 | train_loss=159.425777 | int_val_R2=-3.572808 | bs=256Final train | epoch=0001 | train_loss=19.515335 | int_val_R2=0.902276 | bs=256  Final train | epoch=0002 | train_loss=1.891134 | int_val_R2=0.810570 | bs=256 Final train | epoch=0003 | train_loss=0.997053 | int_val_R2=0.939912 | bs=256Final train | epoch=0004 | train_loss=0.637815 | int_val_R2=0.941202 | bs=256Final train | epoch=0005 | train_loss=0.511397 | int_val_R2=0.964975 | bs=256Final train | epoch=0006 | train_loss=0.485014 | int_val_R2=0.956033 | bs=256Final train | epoch=0007 | train_loss=0.449379 | int_val_R2=0.964257 | bs=256Final train | epoch=0008 | train_loss=0.424411 | int_val_R2=0.966059 | bs=256Final train | epoch=0009 | train_loss=0.409205 | int_val_R2=0.964746 | bs=256Final train | epoch=0010 | train_loss=0.412767 | int_val_R2=0.967513 | bs=256Final train | epoch=0011 | train_loss=0.391932 | int_val_R2=0.968542 | bs=256Final train | epoch=0012 | train_loss=0.387828 | int_val_R2=0.968917 | bs=256Final train | epoch=0013 | train_loss=0.371826 | int_val_R2=0.967306 | bs=256Final train | epoch=0014 | train_loss=0.364964 | int_val_R2=0.969906 | bs=256Final train | epoch=0015 | train_loss=0.353968 | int_val_R2=0.968602 | bs=256Final train | epoch=0016 | train_loss=0.341354 | int_val_R2=0.968978 | bs=256Final train | epoch=0017 | train_loss=0.350085 | int_val_R2=0.971684 | bs=256Final train | epoch=0018 | train_loss=0.343740 | int_val_R2=0.970663 | bs=256Final train | epoch=0019 | train_loss=0.337520 | int_val_R2=0.972026 | bs=256Final train | epoch=0020 | train_loss=0.351644 | int_val_R2=0.972656 | bs=256Final train | epoch=0021 | train_loss=0.330593 | int_val_R2=0.971169 | bs=256Final train | epoch=0022 | train_loss=0.327951 | int_val_R2=0.971995 | bs=256Final train | epoch=0023 | train_loss=0.325668 | int_val_R2=0.972314 | bs=256Final train | epoch=0024 | train_loss=0.317299 | int_val_R2=0.973682 | bs=256Final train | epoch=0025 | train_loss=0.318884 | int_val_R2=0.974055 | bs=256Final train | epoch=0026 | train_loss=0.312091 | int_val_R2=0.970676 | bs=256Final train | epoch=0027 | train_loss=0.321133 | int_val_R2=0.970686 | bs=256Final train | epoch=0028 | train_loss=0.324810 | int_val_R2=0.973331 | bs=256Final train | epoch=0029 | train_loss=0.322558 | int_val_R2=0.974383 | bs=256Final train | epoch=0030 | train_loss=0.317828 | int_val_R2=0.972501 | bs=256Final train | epoch=0031 | train_loss=0.298617 | int_val_R2=0.972585 | bs=256Final train | epoch=0032 | train_loss=0.304194 | int_val_R2=0.972454 | bs=256Final train | epoch=0033 | train_loss=0.305599 | int_val_R2=0.975048 | bs=256Final train | epoch=0034 | train_loss=0.322735 | int_val_R2=0.974457 | bs=256Final train | epoch=0035 | train_loss=0.344336 | int_val_R2=0.970310 | bs=256Final train | epoch=0036 | train_loss=0.308400 | int_val_R2=0.971677 | bs=256Final train | epoch=0037 | train_loss=0.291492 | int_val_R2=0.973549 | bs=256Final train | epoch=0038 | train_loss=0.290981 | int_val_R2=0.973598 | bs=256Final train | epoch=0039 | train_loss=0.289157 | int_val_R2=0.973825 | bs=256Final train | epoch=0040 | train_loss=0.287044 | int_val_R2=0.973817 | bs=256Final train | epoch=0041 | train_loss=0.279173 | int_val_R2=0.973264 | bs=256Final train | epoch=0042 | train_loss=0.284548 | int_val_R2=0.973076 | bs=256Final train | epoch=0043 | train_loss=0.308221 | int_val_R2=0.974403 | bs=256Final train | epoch=0044 | train_loss=0.279985 | int_val_R2=0.976746 | bs=256Final train | epoch=0045 | train_loss=0.296874 | int_val_R2=0.974099 | bs=256Final train | epoch=0046 | train_loss=0.282572 | int_val_R2=0.975953 | bs=256Final train | epoch=0047 | train_loss=0.299002 | int_val_R2=0.974810 | bs=256Final train | epoch=0048 | train_loss=0.282273 | int_val_R2=0.971945 | bs=256Final train | epoch=0049 | train_loss=0.284669 | int_val_R2=0.976126 | bs=256Final train | epoch=0050 | train_loss=0.279384 | int_val_R2=0.972506 | bs=256Final train | epoch=0051 | train_loss=0.318691 | int_val_R2=0.964306 | bs=256Final train | epoch=0052 | train_loss=0.343483 | int_val_R2=0.963106 | bs=256Final train | epoch=0053 | train_loss=0.330615 | int_val_R2=0.974644 | bs=256Final train | epoch=0054 | train_loss=0.316638 | int_val_R2=0.977284 | bs=256Final train | epoch=0055 | train_loss=0.303267 | int_val_R2=0.972246 | bs=256Final train | epoch=0056 | train_loss=0.276233 | int_val_R2=0.975150 | bs=256Final train | epoch=0057 | train_loss=0.298173 | int_val_R2=0.975770 | bs=256Final train | epoch=0058 | train_loss=0.310866 | int_val_R2=0.961330 | bs=256Final train | epoch=0059 | train_loss=0.305714 | int_val_R2=0.976573 | bs=256Final train | epoch=0060 | train_loss=0.269918 | int_val_R2=0.977641 | bs=256Final train | epoch=0061 | train_loss=0.276983 | int_val_R2=0.973038 | bs=256Final train | epoch=0062 | train_loss=0.292607 | int_val_R2=0.974879 | bs=256Final train | epoch=0063 | train_loss=0.266831 | int_val_R2=0.976577 | bs=256Final train | epoch=0064 | train_loss=0.261428 | int_val_R2=0.976771 | bs=256Final train | epoch=0065 | train_loss=0.262370 | int_val_R2=0.975818 | bs=256Final train | epoch=0066 | train_loss=0.277918 | int_val_R2=0.975817 | bs=256Final train | epoch=0067 | train_loss=0.265005 | int_val_R2=0.974746 | bs=256Final train | epoch=0068 | train_loss=0.261260 | int_val_R2=0.975602 | bs=256Final train | epoch=0069 | train_loss=0.264924 | int_val_R2=0.976139 | bs=256Final train | epoch=0070 | train_loss=0.279892 | int_val_R2=0.972340 | bs=256Final train | epoch=0071 | train_loss=0.319970 | int_val_R2=0.970698 | bs=256Final train | epoch=0072 | train_loss=0.278029 | int_val_R2=0.976714 | bs=256Final train | epoch=0073 | train_loss=0.271364 | int_val_R2=0.975597 | bs=256Final train | epoch=0074 | train_loss=0.262133 | int_val_R2=0.975418 | bs=256Final train | epoch=0075 | train_loss=0.265259 | int_val_R2=0.977153 | bs=256Final train | epoch=0076 | train_loss=0.264148 | int_val_R2=0.961631 | bs=256Final train | epoch=0077 | train_loss=0.332477 | int_val_R2=0.977811 | bs=256Final train | epoch=0078 | train_loss=0.319785 | int_val_R2=0.975033 | bs=256Final train | epoch=0079 | train_loss=0.304147 | int_val_R2=0.976052 | bs=256Final train | epoch=0080 | train_loss=0.286995 | int_val_R2=0.978164 | bs=256Final train | epoch=0081 | train_loss=0.288460 | int_val_R2=0.972026 | bs=256Final train | epoch=0082 | train_loss=0.310805 | int_val_R2=0.961755 | bs=256Final train | epoch=0083 | train_loss=0.298983 | int_val_R2=0.975589 | bs=256Final train | epoch=0084 | train_loss=0.288113 | int_val_R2=0.965556 | bs=256Final train | epoch=0085 | train_loss=0.279875 | int_val_R2=0.975984 | bs=256Final train | epoch=0086 | train_loss=0.251267 | int_val_R2=0.977670 | bs=256Final train | epoch=0087 | train_loss=0.263858 | int_val_R2=0.979518 | bs=256Final train | epoch=0088 | train_loss=0.243398 | int_val_R2=0.979191 | bs=256Final train | epoch=0089 | train_loss=0.262430 | int_val_R2=0.973950 | bs=256Final train | epoch=0090 | train_loss=0.258587 | int_val_R2=0.972091 | bs=256Final train | epoch=0091 | train_loss=0.291041 | int_val_R2=0.972152 | bs=256Final train | epoch=0092 | train_loss=0.256182 | int_val_R2=0.978844 | bs=256Final train | epoch=0093 | train_loss=0.278836 | int_val_R2=0.975790 | bs=256Final train | epoch=0094 | train_loss=0.238158 | int_val_R2=0.977555 | bs=256Final train | epoch=0095 | train_loss=0.246177 | int_val_R2=0.974451 | bs=256Final train | epoch=0096 | train_loss=0.327719 | int_val_R2=0.970164 | bs=256Final train | epoch=0097 | train_loss=0.322291 | int_val_R2=0.980855 | bs=256Final train | epoch=0098 | train_loss=0.270079 | int_val_R2=0.973694 | bs=256Final train | epoch=0099 | train_loss=0.252174 | int_val_R2=0.978777 | bs=256Final train | epoch=0100 | train_loss=0.237069 | int_val_R2=0.978150 | bs=256Final train | epoch=0101 | train_loss=0.266572 | int_val_R2=0.979100 | bs=256Final train | epoch=0102 | train_loss=0.260341 | int_val_R2=0.975257 | bs=256Final train | epoch=0103 | train_loss=0.250463 | int_val_R2=0.974736 | bs=256Final train | epoch=0104 | train_loss=0.256013 | int_val_R2=0.972401 | bs=256Final train | epoch=0105 | train_loss=0.248173 | int_val_R2=0.976211 | bs=256Final train | epoch=0106 | train_loss=0.264694 | int_val_R2=0.977014 | bs=256Final train | epoch=0107 | train_loss=0.243498 | int_val_R2=0.977339 | bs=256Final train | epoch=0108 | train_loss=0.250332 | int_val_R2=0.978095 | bs=256Final train | epoch=0109 | train_loss=0.247093 | int_val_R2=0.976723 | bs=256Final train | epoch=0110 | train_loss=0.231252 | int_val_R2=0.975417 | bs=256Final train | epoch=0111 | train_loss=0.296320 | int_val_R2=0.979943 | bs=256Final train | epoch=0112 | train_loss=0.315906 | int_val_R2=0.973958 | bs=256Final train | epoch=0113 | train_loss=0.252978 | int_val_R2=0.977404 | bs=256Final train | epoch=0114 | train_loss=0.249586 | int_val_R2=0.975137 | bs=256Final train | epoch=0115 | train_loss=0.276517 | int_val_R2=0.976625 | bs=256Final train | epoch=0116 | train_loss=0.240483 | int_val_R2=0.980096 | bs=256Final train | epoch=0117 | train_loss=0.240613 | int_val_R2=0.975434 | bs=256Final train | epoch=0118 | train_loss=0.235127 | int_val_R2=0.977778 | bs=256Final train | epoch=0119 | train_loss=0.248823 | int_val_R2=0.978160 | bs=256Final train | epoch=0120 | train_loss=0.305776 | int_val_R2=0.970521 | bs=256Final train | epoch=0121 | train_loss=0.497693 | int_val_R2=0.935717 | bs=256Final train | epoch=0122 | train_loss=0.422871 | int_val_R2=0.962885 | bs=256Final train | epoch=0123 | train_loss=0.573475 | int_val_R2=0.979065 | bs=256Final train | epoch=0124 | train_loss=0.414701 | int_val_R2=0.978044 | bs=256Final train | epoch=0125 | train_loss=0.248803 | int_val_R2=0.977912 | bs=256Final train | epoch=0126 | train_loss=0.227221 | int_val_R2=0.976418 | bs=256Final train | epoch=0127 | train_loss=0.231464 | int_val_R2=0.980917 | bs=256Final train | epoch=0128 | train_loss=0.278209 | int_val_R2=0.971606 | bs=256Final train | epoch=0129 | train_loss=0.296677 | int_val_R2=0.963503 | bs=256Final train | epoch=0130 | train_loss=0.295321 | int_val_R2=0.975411 | bs=256Final train | epoch=0131 | train_loss=0.228581 | int_val_R2=0.975018 | bs=256Final train | epoch=0132 | train_loss=0.221215 | int_val_R2=0.981023 | bs=256Final train | epoch=0133 | train_loss=0.222124 | int_val_R2=0.979474 | bs=256Final train | epoch=0134 | train_loss=0.233761 | int_val_R2=0.975558 | bs=256Final train | epoch=0135 | train_loss=0.235232 | int_val_R2=0.969712 | bs=256Final train | epoch=0136 | train_loss=0.363288 | int_val_R2=0.973737 | bs=256Final train | epoch=0137 | train_loss=0.268428 | int_val_R2=0.979031 | bs=256Final train | epoch=0138 | train_loss=0.218396 | int_val_R2=0.978836 | bs=256Final train | epoch=0139 | train_loss=0.220393 | int_val_R2=0.980785 | bs=256Final train | epoch=0140 | train_loss=0.218025 | int_val_R2=0.976599 | bs=256Final train | epoch=0141 | train_loss=0.225426 | int_val_R2=0.979528 | bs=256Final train | epoch=0142 | train_loss=0.214891 | int_val_R2=0.979524 | bs=256Final train | epoch=0143 | train_loss=0.234592 | int_val_R2=0.975246 | bs=256Final train | epoch=0144 | train_loss=0.246779 | int_val_R2=0.976929 | bs=256Final train | epoch=0145 | train_loss=0.219049 | int_val_R2=0.977393 | bs=256Final train | epoch=0146 | train_loss=0.211653 | int_val_R2=0.977761 | bs=256Final train | epoch=0147 | train_loss=0.221756 | int_val_R2=0.982421 | bs=256Final train | epoch=0148 | train_loss=0.224156 | int_val_R2=0.964634 | bs=256Final train | epoch=0149 | train_loss=0.319765 | int_val_R2=0.971657 | bs=256Final train | epoch=0150 | train_loss=0.303706 | int_val_R2=0.979510 | bs=256Final train | epoch=0151 | train_loss=0.233694 | int_val_R2=0.979488 | bs=256Final train | epoch=0152 | train_loss=0.254494 | int_val_R2=0.979264 | bs=256Final train | epoch=0153 | train_loss=0.256811 | int_val_R2=0.979349 | bs=256Final train | epoch=0154 | train_loss=0.219628 | int_val_R2=0.976371 | bs=256Final train | epoch=0155 | train_loss=0.229693 | int_val_R2=0.975478 | bs=256Final train | epoch=0156 | train_loss=0.248644 | int_val_R2=0.975174 | bs=256Final train | epoch=0157 | train_loss=0.255712 | int_val_R2=0.976261 | bs=256Final train | epoch=0158 | train_loss=0.227341 | int_val_R2=0.978944 | bs=256Final train | epoch=0159 | train_loss=0.210780 | int_val_R2=0.980650 | bs=256Final train | epoch=0160 | train_loss=0.225012 | int_val_R2=0.978892 | bs=256Final train | epoch=0161 | train_loss=0.239480 | int_val_R2=0.972870 | bs=256Final train | epoch=0162 | train_loss=0.298955 | int_val_R2=0.981332 | bs=256Final train | epoch=0163 | train_loss=0.359322 | int_val_R2=0.945778 | bs=256Final train | epoch=0164 | train_loss=0.359080 | int_val_R2=0.970902 | bs=256Final train | epoch=0165 | train_loss=0.259681 | int_val_R2=0.981045 | bs=256Final train | epoch=0166 | train_loss=0.222686 | int_val_R2=0.975455 | bs=256Final train | epoch=0167 | train_loss=0.211752 | int_val_R2=0.978401 | bs=256Final train | epoch=0168 | train_loss=0.215193 | int_val_R2=0.979788 | bs=256Final train | epoch=0169 | train_loss=0.236948 | int_val_R2=0.976254 | bs=256Final train | epoch=0170 | train_loss=0.240208 | int_val_R2=0.980980 | bs=256Final train | epoch=0171 | train_loss=0.235301 | int_val_R2=0.979638 | bs=256Final train | epoch=0172 | train_loss=0.209181 | int_val_R2=0.981907 | bs=256Final train | epoch=0173 | train_loss=0.198777 | int_val_R2=0.978111 | bs=256Final train | epoch=0174 | train_loss=0.214049 | int_val_R2=0.981463 | bs=256Final train | epoch=0175 | train_loss=0.329774 | int_val_R2=0.940249 | bs=256Final train | epoch=0176 | train_loss=0.367767 | int_val_R2=0.970858 | bs=256Final train | epoch=0177 | train_loss=0.260677 | int_val_R2=0.983035 | bs=256Final train | epoch=0178 | train_loss=0.208833 | int_val_R2=0.978381 | bs=256Final train | epoch=0179 | train_loss=0.216866 | int_val_R2=0.976207 | bs=256Final train | epoch=0180 | train_loss=0.241692 | int_val_R2=0.977415 | bs=256Final train | epoch=0181 | train_loss=0.212330 | int_val_R2=0.980207 | bs=256Final train | epoch=0182 | train_loss=0.200115 | int_val_R2=0.983972 | bs=256Final train | epoch=0183 | train_loss=0.186339 | int_val_R2=0.981479 | bs=256Final train | epoch=0184 | train_loss=0.226712 | int_val_R2=0.973697 | bs=256Final train | epoch=0185 | train_loss=0.214392 | int_val_R2=0.983181 | bs=256Final train | epoch=0186 | train_loss=0.187395 | int_val_R2=0.981214 | bs=256Final train | epoch=0187 | train_loss=0.189210 | int_val_R2=0.978315 | bs=256Final train | epoch=0188 | train_loss=0.205004 | int_val_R2=0.983164 | bs=256Final train | epoch=0189 | train_loss=0.216134 | int_val_R2=0.979628 | bs=256Final train | epoch=0190 | train_loss=0.206176 | int_val_R2=0.977553 | bs=256Final train | epoch=0191 | train_loss=0.230527 | int_val_R2=0.979140 | bs=256Final train | epoch=0192 | train_loss=0.232580 | int_val_R2=0.982849 | bs=256Final train | epoch=0193 | train_loss=0.240459 | int_val_R2=0.973632 | bs=256Final train | epoch=0194 | train_loss=0.194706 | int_val_R2=0.978215 | bs=256Final train | epoch=0195 | train_loss=0.196407 | int_val_R2=0.982094 | bs=256Final train | epoch=0196 | train_loss=0.211861 | int_val_R2=0.981200 | bs=256Final train | epoch=0197 | train_loss=0.188934 | int_val_R2=0.975306 | bs=256Final train | epoch=0198 | train_loss=0.219266 | int_val_R2=0.979894 | bs=256Final train | epoch=0199 | train_loss=0.198945 | int_val_R2=0.981444 | bs=256
+Target R² > 0.98 achieved: 0.981444
+
+- holdout_R2: 0.9816840887069702
+
+================================================================================
+Saving inference artifacts
+================================================================================
+Version mismatch or missing (stored=182825496f18d87c3b76aab1f7f6a92750207242b95baff758c0d54bcb0f0741, current=84ab3a9cca7423f937c8f3a694598664710229d21e756833838495fa064afad9) -> updating snapshot
+Wrote code snapshot -> inference-ready/model
+Wrote version.json (version=84ab3a9cca7423f937c8f3a694598664710229d21e756833838495fa064afad9)
+Saved model weights -> inference-ready/resnet_model.pth
+Saved model params -> inference-ready/model_params.json
+Saved metrics -> inference-ready/metrics.json
+Saved StandardScaler -> inference-ready/scaler.pkl
+Saved SelectKBest -> inference-ready/kbest_selector.pkl
+Saved holdout arrays -> inference-ready/X_holdout_raw.npy, y_holdout.npy
+Saved data stats -> inference-ready/data_stats.json
+Model saved with holdout R² = 0.981684
+Training complete!
+Final R²: 0.981684
