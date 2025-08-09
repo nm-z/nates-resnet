@@ -416,31 +416,22 @@ def _print_header(msg: str):
 def _print_kv(key: str, value):
     print(f"- {key}: {value}")
 
-# Dataset configuration
-# D4B: uses 4 channels [s11_db, db, phase, Xs]
-# D5:  uses 2 channels [phase, Rs] but the same temp readings as D4B (copied CSV name)
-DATASET_NAME = 'D5'
-DATASET_CONFIG = {
-    'D4B': {
-        'temp_csv': 'temp_readings-D4B.csv',
-        'vna_dir': 'VNA-D4B',
-        'required_cols': ("s11_db", "db", "phase", "Xs"),
-    },
-    'D5': {
-        'temp_csv': 'temp_readings-D5.csv',
-        'vna_dir': 'VNA-D4B',  # reuse same raw files, select subset cols
-        'required_cols': ("phase", "Rs"),
-    },
-}
+# User-configurable data source and feature columns (integrity-first)
+# Edit these to choose which columns are used without any aliasing.
+VNA_DIR = 'VNA-D4'
+TEMP_CSV = 'temp_readings-D4.csv'
+FEATURE_COLUMNS = [
+    'Phase(deg)',
+    'Rs',
+]
+HARD_FAIL_ON_MISSING_COLUMNS = True
 
-REQUIRED_VNA_COLS = DATASET_CONFIG[DATASET_NAME]['required_cols']
-
-_RS_ALIAS_NOTICE_DONE = False
-
-def _collect_vna_raw_arrays(vna_dir: str, required_cols=REQUIRED_VNA_COLS):
+def _collect_vna_raw_arrays(vna_dir: str, required_cols=None):
     """Collect raw arrays for required VNA columns per file.
     Returns list of dicts: { 'timestamp': ts, 'file': path, 'arrays': {col: np.ndarray} }
     """
+    if required_cols is None:
+        required_cols = FEATURE_COLUMNS
     _print_header(f"Scanning VNA directory: {vna_dir}")
     files = sorted(glob.glob(str(Path(vna_dir) / '*.csv')))
     _print_kv("files_found", len(files))
@@ -462,13 +453,10 @@ def _collect_vna_raw_arrays(vna_dir: str, required_cols=REQUIRED_VNA_COLS):
         for c in required_cols:
             col_name = c
             if c not in df.columns:
-                # Alias Rs -> Xs if requested and only Xs exists in files
-                if c == 'Rs' and 'Xs' in df.columns:
-                    col_name = 'Xs'
-                    global _RS_ALIAS_NOTICE_DONE
-                    if not _RS_ALIAS_NOTICE_DONE:
-                        print("INFO: 'Rs' column not found; aliasing to 'Xs' from VNA files for D5 dataset")
-                        _RS_ALIAS_NOTICE_DONE = True
+                if HARD_FAIL_ON_MISSING_COLUMNS:
+                    print(f"ERROR: required column '{c}' not found in {fp}. Available: {list(df.columns)}")
+                    ok = False
+                    break
                 else:
                     ok = False
                     break
@@ -505,8 +493,10 @@ def _collect_vna_raw_arrays(vna_dir: str, required_cols=REQUIRED_VNA_COLS):
         raise RuntimeError(f"No usable VNA files in {vna_dir}")
     return records
 
-def _determine_target_len(records, required_cols=("s11_db", "phase", "Xs")) -> int:
+def _determine_target_len(records, required_cols=None) -> int:
     """Determine a common per-column length to ensure equal-sized feature vectors."""
+    if required_cols is None:
+        required_cols = FEATURE_COLUMNS
     per_file_min = []
     for rec in records:
         min_len = min(rec['lengths'][c] for c in required_cols)
@@ -522,8 +512,10 @@ def _determine_target_len(records, required_cols=("s11_db", "phase", "Xs")) -> i
     _print_kv("target_len", target_len)
     return target_len
 
-def _build_dense_features(records, target_len, required_cols=REQUIRED_VNA_COLS):
+def _build_dense_features(records, target_len, required_cols=None):
     """Build dense, concatenated feature vectors per file."""
+    if required_cols is None:
+        required_cols = FEATURE_COLUMNS
     _print_header("Building dense feature vectors")
     _print_kv("required_cols", list(required_cols))
     _print_kv("target_len", target_len)
@@ -553,34 +545,23 @@ def _build_dense_features(records, target_len, required_cols=REQUIRED_VNA_COLS):
     _print_kv("dense_X_shape", X.shape)
     return ts_series, X
 
-def _ensure_d5_temp_csv():
-    """Ensure D5 temp CSV exists by copying D4B CSV if needed."""
-    src = Path('temp_readings-D4B.csv')
-    dst = Path('temp_readings-D5.csv')
-    if not dst.exists():
-        if not src.exists():
-            raise FileNotFoundError("Missing temp_readings-D4B.csv to seed D5 temp CSV")
-        shutil.copy2(src, dst)
-        print("Copied temp_readings-D4B.csv -> temp_readings-D5.csv")
+# (No D5 temp copy in integrity mode)
 
 
 def load_data():
     """Build dataset by aligning dense VNA vectors to nearest temperature readings (dataset-aware)."""
     _print_header("Loading data")
-    cfg = DATASET_CONFIG[DATASET_NAME]
-    if DATASET_NAME == 'D5':
-        _ensure_d5_temp_csv()
-    print(f"Dataset: {DATASET_NAME}")
-    print(f"Reading temp CSV: {cfg['temp_csv']}")
-    temp_df = pd.read_csv(cfg['temp_csv'])
+    print(f"Temp CSV: {TEMP_CSV}")
+    print(f"VNA DIR: {VNA_DIR}")
+    print(f"Feature columns: {FEATURE_COLUMNS}")
+    temp_df = pd.read_csv(TEMP_CSV)
     temp_df['timestamp'] = pd.to_datetime(temp_df['timestamp'])
     temp_df = temp_df.sort_values('timestamp').reset_index(drop=True)
     _print_kv("temp_rows", len(temp_df))
 
-    vna_dir = cfg['vna_dir']
-    records = _collect_vna_raw_arrays(vna_dir, required_cols=cfg['required_cols'])
-    target_len = _determine_target_len(records, required_cols=cfg['required_cols'])
-    vna_timestamps, X_dense = _build_dense_features(records, target_len, required_cols=cfg['required_cols'])
+    records = _collect_vna_raw_arrays(VNA_DIR, required_cols=FEATURE_COLUMNS)
+    target_len = _determine_target_len(records, required_cols=FEATURE_COLUMNS)
+    vna_timestamps, X_dense = _build_dense_features(records, target_len, required_cols=FEATURE_COLUMNS)
 
     print("Aligning VNA to temperature readings (tolerance=15 min)")
     vna_df = pd.DataFrame({'timestamp': vna_timestamps})
@@ -1064,7 +1045,12 @@ def main():
     )
     
     # Optimize with cached X, y
-    study.optimize(lambda trial: objective(trial, X_train, y_train, X_val, y_val), n_trials=50, timeout=3600, show_progress_bar=True)
+    study.optimize(
+        lambda trial: objective(trial, X_train, y_train, X_val, y_val),
+        n_trials=120,
+        timeout=10800,
+        show_progress_bar=True,
+    )
 
     # Save trials history
     try:
