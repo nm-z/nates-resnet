@@ -1,47 +1,86 @@
 ## nates-resnet
 
-GPU-only training and inference pipeline for a custom ResNet regressor that predicts temperature from VNA traces. The project performs dataset assembly from raw CSVs, feature construction, Optuna-driven hyperparameter search, final training, and artifact packaging for reproducible inference.
+This Python-based training pipeline leverages PyTorch and Optuna to train a custom Residual Neural Network (ResNet) architecture specifically optimized for high-accuracy regression tasks—particularly predicting temperature from dense Vector Network Analyzer (VNA) sensor data.
 
-### Methodology
-- **Data ingestion**: Reads VNA CSV files from `VNA-D4B` and temperature readings from `temp_readings-*.csv`. Timestamps are parsed from VNA filenames and aligned to the nearest temperature within 15 minutes.
-- **Feature construction**: For each file, required VNA columns are extracted and concatenated into a fixed-length dense vector using a per-file minimum length heuristic (median fallback). NaNs/±inf are zeroed.
-- **Labels**: Temperature `temp_c` is taken from the aligned reading.
-- **Split**: 70% train, 15% validation (for Optuna), 15% holdout for final reporting.
-- **Model**: `CustomResNet` — input projection → N residual blocks with LayerNorm, linear, dropout, and learnable residual scaling (`alpha`) → linear head. Single-target regression.
-- **Preprocessing (optuna chooses to use this or not )**: VarianceThreshold, StandardScaler, and SelectKBest are toggled/parameterized by Optuna and, if used, are saved for exact reproduction.
-- **Optimization**: Optuna TPE maximizes validation R². Mixed precision (AMP) is used; batch size is auto-scaled to fit GPU memory. Optional `torch.compile` when available.
-- **Final training**: Trains with best hyperparameters on train+val; reports true holdout R². Early stopping with a patience window after a minimum epoch count.
-- **Artifacts & versioning**: Saves to `inference-ready/` including weights, params, metrics, data stats, enabled preprocessors, holdout arrays, and a code snapshot (`model/model_def.py`) with a content-hash `version.json` for provenance.
+### Key Features:
 
-### Quickstart
+* **GPU-Exclusive Training**: Enforces GPU usage for high-speed, large-scale data handling.
+* **Custom ResNet Architecture**:
+
+  * Specialized residual blocks with LayerNorm, dropout, and learnable residual scaling for enhanced training stability.
+  * Flexible depth (number of blocks) and width (hidden dimensions).
+* **Optuna Hyperparameter Optimization**:
+
+  * Automatic tuning of model parameters (hidden layers, dropout, learning rate).
+  * Dynamically optimized preprocessing steps (`VarianceThreshold`, `StandardScaler`, `SelectKBest`).
+* **Robust Data Preprocessing**:
+
+  * Parses and aligns timestamped VNA data and temperature readings.
+  * Handles missing and irregular data gracefully.
+* **Automated GPU Batch-Size Scaling**:
+
+  * Prevents GPU memory overflow by dynamically adjusting batch sizes.
+* **Mixed-Precision Training (AMP)**:
+
+  * Increases performance and reduces GPU memory usage.
+* **Advanced Logging & Reproducibility**:
+
+  * Unified logging to both terminal and log files.
+  * SHA-256-based model and code snapshotting for reproducibility.
+* **Comprehensive Artifact Management**:
+
+  * Saves trained models, preprocessing components, metrics, hyperparameters, and dataset statistics for immediate inference deployment.
+
+---
+
+### Workflow:
+
+1. **Data Loading and Preprocessing**
+
+   * Dense feature extraction from raw VNA CSV files.
+   * Temporal alignment with temperature measurements.
+
+2. **Hyperparameter Optimization (Optuna)**
+
+   * Iterative training with automatic hyperparameter tuning.
+   * Early stopping based on validation R² to optimize efficiency.
+
+3. **Final Training & Validation**
+
+   * Retrains optimal model configuration on combined training and validation datasets.
+   * Evaluates final model performance rigorously on a reserved holdout set.
+
+4. **Deployment-Ready Model Saving**
+
+   * Prepares and saves all necessary artifacts for easy inference and future usage.
+
+---
+
+### Targeted Performance:
+
+* Designed explicitly to achieve high regression accuracy (R² > 0.98).
+
+---
+
+## Usage:
+
+Run the main script to initiate the entire pipeline:
+
 ```bash
-python gpu_optuna_trainer.py
+python3 gpu_optuna_trainer.py
 ```
-- Requires a GPU (CUDA/ROCm). The code will hard-fail if no GPU is available.
-- Outputs artifacts under `inference-ready/`.
 
-### Inference
-```bash
-python inference.py
+Ensure GPU availability and proper dataset directories on lines 421-426 before execution.
+Default is :
+```python
+VNA_DIR = 'VNA-D4'
+TEMP_CSV = 'temp_readings-D4.csv'
+FEATURE_COLUMNS = [
+    'Phase(deg)',
+    'Rs',
+]
 ```
-- Loads `inference-ready/` artifacts, reconstructs preprocessing in the original order, restores the snapshot model definition, and reports holdout metrics.
 
-### Data expectations
-- VNA directory: `VNA-D4B` with per-trace CSVs.
-- Temperature CSV: `temp_readings-D4B.csv` or `temp_readings-D5.csv` depending on `DATASET_NAME` in `gpu_optuna_trainer.py`.
-- Required VNA columns depend on dataset config. Note: current `D5` config aliases missing `Rs` to `Xs` when only `Xs` exists; `D4B` uses four channels directly. For strict integrity workflows, use columns that exist physically or adjust config to hard-fail on missing columns.
 
-### Artifacts (inference-ready/)
-- `resnet_model.pth` — trained weights
-- `model_params.json` — selected hyperparameters (includes preprocessing toggles)
-- `metrics.json` — final holdout R² with code version hash
-- `data_stats.json` — basic stats and shapes for sanity checks
-- `var_thresh.pkl` | `scaler.pkl` | `kbest_selector.pkl` — saved preprocessors if enabled
-- `X_holdout_raw.npy`, `y_holdout.npy` — holdout arrays for end-to-end verification
-- `model/model_def.py`, `version.json` — exact model definition and provenance
-
-### Notes
-- This repository enforces GPU-only execution for both training and inference.
-- Provenance is preserved via code snapshotting; inference prefers the snapshot model to avoid shape or API drift.
 
 
